@@ -39,6 +39,7 @@ import kotlinx.coroutines.withContext
  * }
  *
  */
+@Deprecated("https://github.com/eaglesakura/live-task-counter")
 class LiveTaskCounter : LiveData<LiveTaskCounter.Snapshot>(Snapshot(Date(), 0, 0)) {
 
     private val versionImpl = AtomicLong()
